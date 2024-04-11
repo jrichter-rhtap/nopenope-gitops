@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: nonononon
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: nonononon 
+  name: nonononon
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: nonononon 
